@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(40, 40, 99);
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#heading {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+#projects {
+
+}
+
+#about {
+
+}
+
+#contact {
+
+}
+
+.icon-image {
+    height: 200px;
+    border-radius: 50%;
+}
