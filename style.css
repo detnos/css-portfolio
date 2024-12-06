@@ -16,7 +16,9 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: red;
+    color: rgb(77, 77, 77);
+    font-weight: bolder;
+    -webkit-text-stroke: 1px white;
 }
 
 /* mouse over link */
@@ -51,12 +53,20 @@ h1 {
     -webkit-text-stroke: 3px black;
 }
 
+h1:hover {
+    color: rgb(206, 237, 206);
+}
+
 h2 {
     font-size: 2rem;
     color: black;
     -webkit-text-stroke: 1px white;
     letter-spacing: 1px;
     word-spacing: -0.5rem;
+}
+
+h2:hover {
+    color: rgb(60, 44, 15);
 }
 
 #heading {
