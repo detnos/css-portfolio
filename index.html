@@ -3,43 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personla Site</title>
+    <title>CSS Personla Portfolio Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
     <!--TODO: Make the site responsive-->
-    <!--Ensure all images have alt text-->
-    
-    <!--[D]Hero Section: brief introduction to me and my background-->
-    <section id="heading">
-        <h1>Hugh Robinson</h1>
-        <h2>Web Development personal site</h2>
-        <div class="image">
-            <img class="icon-image" src="./assets/images/hugh.jpg" alt="image of Hugh" />
-            <!--TODO: link to a [D]Resume page: put it somewhere clever, I don't know if I like it below my image-->
-            <p><a href="./public/resume.html">Get to know Hugh</a></p>
-        </div>        
-    </section>
-    
-    <!--[D]Projects section-->
-    <section id="projects">
-        <h3>Projects</h2>
-    </section>
+    <div class="grid-container">
+        <!--Ensure all images have alt text-->
+        
+        <!--[D]Hero Section: brief introduction to me and my background-->
+        <section id="heading">
+            <h1 class="press-start-2p-regular">Hugh Robinson</h1>
+            <h2 class="press-start-2p-regular">Web Development personal site</h2>
+            <div class="image">
+                <img class="icon-image" src="./assets/images/hugh.jpg" alt="image of Hugh" />
+                <!--TODO: link to a [D]Resume page: put it somewhere clever, I don't know if I like it below my image-->
+                <p><a href="./public/resume.html">Get to know Hugh</a></p>
+            </div>
+        </section>
+        
+        <!--[D]Projects section-->
+        <section id="projects">
+            <h3>Projects</h2>
+        </section>
 
-    <!--[D]About Me section-->
-    <section id="about">
-        <h3>About Me</h2>
-    
-    <!--Skills, Experiences, Interests
-    
-    Make the site visually appealing and easy to navigate
-    
-    HTML & CSS only, no JS [just yet]-->
-    </section>
+        <!--[D]About Me section-->
+        <section id="about">
+            <h3>About Me</h2>
+        
+        <!--Skills, Experiences, Interests
+        
+        Make the site visually appealing and easy to navigate
+        
+        HTML & CSS only, no JS [just yet]-->
+        </section>
 
-    <!--[D]Contact me section includes information for users to get in touch with me-->
-    <section id="contact">
-        <h3>Contact me</h3>
-    </section>
+        <!--[D]Contact me section includes information for users to get in touch with me-->
+        <section id="contact">
+            <h3>Contact me</h3>
+        </section>
+    </div>
 </body>
 </html>
